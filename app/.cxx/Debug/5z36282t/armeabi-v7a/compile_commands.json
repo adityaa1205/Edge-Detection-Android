@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/adity/Desktop/app/.cxx/Debug/5z36282t/armeabi-v7a",
+  "command": "C:\\Users\\adity\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=C:/Users/adity/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -isystem C:/Users/adity/Downloads/OpenCV-android-sdk/sdk/native/jni/include -std=c++11 -std=c++11 -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c C:\\Users\\adity\\Desktop\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\Users\\adity\\Desktop\\app\\src\\main\\cpp\\native-lib.cpp"
+},
+{
+  "directory": "C:/Users/adity/Desktop/app/.cxx/Debug/5z36282t/armeabi-v7a",
+  "command": "C:\\Users\\adity\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=C:/Users/adity/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -isystem C:/Users/adity/Downloads/OpenCV-android-sdk/sdk/native/jni/include -std=c++11 -std=c++11 -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\native-lib.dir\\opencv_processing.cpp.o -c C:\\Users\\adity\\Desktop\\app\\src\\main\\cpp\\opencv_processing.cpp",
+  "file": "C:\\Users\\adity\\Desktop\\app\\src\\main\\cpp\\opencv_processing.cpp"
+}
+]

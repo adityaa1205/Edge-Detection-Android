@@ -1,0 +1,19 @@
+# Android/Gradle ignores
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+app/build/
+
+# TypeScript compiled outputs
+web/src/*.js
+web/src/*.js.map
+web/src/*.d.ts
+web/src/*.d.ts.map
+
+# Screenshots (if not needed in repo)
+Screenshot_*.png
+
+# Other
+Desktop.iml

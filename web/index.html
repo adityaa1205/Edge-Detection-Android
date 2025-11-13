@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge Detection Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #frame {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        .stats {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edge Detection Frame Viewer</h1>
+    <img id="frame" src="" alt="Processed Frame">
+    <div class="stats">
+        <p>FPS: <span id="fps">0</span></p>
+        <p>Resolution: <span id="resolution">0x0</span></p>
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>
