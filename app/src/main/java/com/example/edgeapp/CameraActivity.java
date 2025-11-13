@@ -1,10 +1,6 @@
 package com.example.edgeapp;
 import android.*;
-//import android.Manifest;
-//import android.content.pm.PackageManager;
-//import android.os.Bundle;
-//import android.util.Log;
-//import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.camera.core.CameraSelector;
