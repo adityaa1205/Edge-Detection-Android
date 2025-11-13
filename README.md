@@ -32,7 +32,7 @@ CameraX (Java) → JNI → OpenCV C++ (Canny) → OpenGL ES (Render) → Display
 - OpenCV Android SDK
 - Node.js and TypeScript (for web viewer)
 
-### 1. Install OpenCV for Android
+### 1. Install OpenCV for Android:
 1. Download OpenCV Android SDK from https://opencv.org/releases/
 2. Extract to a directory (e.g., `C:/OpenCV-android-sdk`)
 3. Update `CMakeLists.txt` with the correct path:
@@ -40,19 +40,19 @@ CameraX (Java) → JNI → OpenCV C++ (Canny) → OpenGL ES (Render) → Display
    set(OpenCV_DIR "C:/path/to/OpenCV-android-sdk/sdk/native/jni")
    ```
 
-### 2. Build the Android App
+### 2. Build the Android App:
 1. Open the project in Android Studio
 2. Ensure NDK is installed via SDK Manager
 3. Sync Gradle files
 4. Build and run on device/emulator
 
-### 3. Build the Web Viewer
+### 3. Build the Web Viewer:
 1. Navigate to `/web` directory
 2. Run `tsc --init` (if not already done)
 3. Run `tsc` to compile TypeScript to JavaScript
 4. Open `index.html` in a browser
 
-## Frame Pipeline
+## Frame Pipeline:
 
 1. **Capture**: CameraX captures real-time frames as YUV_420_888
 2. **Conversion**: Convert to grayscale byte array
@@ -62,7 +62,7 @@ CameraX (Java) → JNI → OpenCV C++ (Canny) → OpenGL ES (Render) → Display
 6. **Rendering**: OpenGL ES renders the texture on GLSurfaceView
 7. **Display**: Real-time edge detection at 10-15 FPS
 
-## Key Features
+## Key Features:
 
 - Real-time camera capture using CameraX
 - Efficient JNI bridge to C++ OpenCV
