@@ -18,7 +18,6 @@ find_library(log-lib log)
 # Force the same STL that OpenCV was built with
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -lc++_shared")
-
 # Ensure we link in the correct order and include all necessary STL components
 target_link_libraries(native-lib
         ${log-lib}
@@ -28,3 +27,7 @@ target_link_libraries(native-lib
         -lm
         -ldl
         android)
+
+
+# Include OpenCV headers
+include_directories(${OpenCV_INCLUDE_DIRS})
